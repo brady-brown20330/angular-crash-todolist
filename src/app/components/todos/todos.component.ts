@@ -16,7 +16,17 @@ export class TodosComponent implements OnInit {
         id: 1,
         title: "Todo one",
         completed: false,
-      }
+      },
+      {
+        id: 2,
+        title: "Todo two",
+        completed: true,
+      },
+      {
+        id: 2,
+        title: "Todo three",
+        completed: false,
+      },
 
     ]
   }
