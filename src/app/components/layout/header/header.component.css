@@ -1,0 +1,11 @@
+.header {
+  background: cadetblue;
+  color:azure;
+  text-align: center;
+  padding: 10px;
+}
+
+.header a {
+  color: azure;
+  text-decoration: none;
+}
