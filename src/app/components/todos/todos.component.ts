@@ -10,7 +10,7 @@ import { TodoService } from '../../services/todo.service';
 export class TodosComponent implements OnInit {
   todos:Todo[];
 
-  constructor(public todoService:TodoService) {
+  constructor(private todoService:TodoService) {
 
   }
 

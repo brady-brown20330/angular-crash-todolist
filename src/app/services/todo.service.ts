@@ -17,7 +17,7 @@ export class TodoService {
   todosUrl:string = "https://jsonplaceholder.typicode.com/todos?_limit=5";
   todosLimit = '?_limit=5'
 
-  constructor(public http:HttpClient) { }
+  constructor(private http:HttpClient) { }
 
   //Get Todos
   getTodos():Observable<Todo[]> {
